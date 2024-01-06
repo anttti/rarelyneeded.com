@@ -11,9 +11,9 @@
         </a>
       </li>
     {%- for entry in collections.all | eleventyNavigation %}
-      <li><a href="{{ entry.url }}"{% if entry.url != '/' and entry.url in page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+      <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
     {%- endfor %}
-    <li><a href="/now"{% if page.url == '/now/' %} aria-current="page"{% endif %}>Now</a></li>
+    <li><a href="/now">Now</a></li>
     <li><a href="/feed/feed.xml">
       RSS 
       <svg role="graphics-symbol" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 32 32">
