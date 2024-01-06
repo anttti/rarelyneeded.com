@@ -21,12 +21,11 @@ layout: layouts/base.njk
     {%- endfor %}
   </ul>
 
-  <hr />
-
   {%- if collections.posts %}
   {%- set previousPost = collections.posts | getPreviousCollectionItem %}
   {%- set nextPost = collections.posts | getNextCollectionItem %}
   {%- if nextPost or previousPost %}
+  <hr />
   <p>
     {%- if previousPost %}Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
     {%- if nextPost %}<br />Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>{% endif %}
