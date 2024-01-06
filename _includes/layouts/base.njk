@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+    <style>
+      :root {
+        --brand: #007d8c;
+        --brand-dark: #006470;
+        --gray: rgba(0, 0, 0, 0.08);
+      }
+      body {
+        margin: 1em auto;
+        max-width: 40em;
+        padding: 0 .62em 3.24em;
+        font: 1.2em/1.62 sans-serif;
+      }
+      h1, h2, h3 {
+        line-height: 1.2;
+        color: var(--brand-dark);
+      }
+      a {
+        color: var(--brand);
+      }
+      a:visited {
+        color: var(--brand);
+      }
+      hr {
+        border: 0;
+        background: var(--gray);
+        height: 3px;
+      }
+      footer {
+        text-align: center;
+      }
+      .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+      .inline-list {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        padding: 0;
+        align-items: center;
+      }
+      .inline-list li:has(svg[data-role=logo]) {
+        line-height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+  <footer>
+    <hr />
+    <ul class="inline-list">
+      <li><small>Catch me on:</small></li>
+      <li><small><a href="https://mastodon.social/">Mastodon</a></small></li>
+      <li><small><a href="https://github.com/anttti">Github</a></small></li>
+    </ul>
+  </footer>
+</html>

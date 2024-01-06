@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+---
+
+<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+{% include "navigation.njk" %}
+
+<main id="skip">
+  <h1>{{ title }}</h1>
+
+  <small><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></small>
+
+  {{ content | safe }}
+
+  <ul class="inline-list">
+    <li><small>Posted in</small></li>
+    {%- for tag in tags | filterTagList %}
+    {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <li><small><a href="{{ tagUrl }}">#{{ tag | slugify }}</a></small></li>
+    {%- endfor %}
+  </ul>
+
+  <hr />
+
+  {%- if collections.posts %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+  {%- set nextPost = collections.posts | getNextCollectionItem %}
+  {%- if nextPost or previousPost %}
+  <p>
+    {%- if previousPost %}Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
+    {%- if nextPost %}<br />Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>{% endif %}
+  </p>
+  {%- endif %}
+  {%- endif %}
+</main>
