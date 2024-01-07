@@ -9,7 +9,7 @@ After just setting up a QMK environment and creating and flashing a firmware for
 
 ## Installing the tools on macOS
 
-[The official docs](https://docs.qmk.fm/#/newbs_getting_started) are good, but the current Brew version of `avr-gcc` is broken and needs to be manually built from source after setting up QMK:
+[The official docs](https://docs.qmk.fm/#/newbs_getting_started) are good, but the current Brew version of `avr-gcc` is broken and needs to be manually built from source after setting up QMK:
 
 ```
 brew uninstall --ignore-dependencies avr-gcc@8
