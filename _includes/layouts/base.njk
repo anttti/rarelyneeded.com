@@ -11,17 +11,17 @@
 
     <style>
       :root {
-        --brand: #2570eb;
-        --gray: rgba(0, 0, 0, 0.08);
         --text: rgba(0, 0, 0, 0.9);
         --background: white;
+        --link: #2570eb;
+        --hr: rgba(0, 0, 0, 0.08);
       }
       @media (prefers-color-scheme: dark) {
         :root {
         --text: white;
         --background: rgba(0, 0, 0, 0.9);
-        --brand: #97bfff;
-        --gray: rgb(85, 85, 85);
+        --link: #97bfff;
+        --hr: rgb(85, 85, 85);
         }
       }
       body {
@@ -39,11 +39,11 @@
         line-height: 1.4;
       }
       a, a:visited {
-        color: var(--brand);
+        color: var(--link);
       }
       hr {
         border: 0;
-        background: var(--gray);
+        background: var(--hr);
         block-size: 3px;
       }
       picture, img {
@@ -76,10 +76,12 @@
   </body>
   <footer>
     <hr />
-    <ul>
-      <li><small>Catch me on:</small></li>
-      <li><small><a href="https://mastodon.social/@anttti">Mastodon</a></small></li>
-      <li><small><a href="https://github.com/anttti">Github</a></small></li>
-    </ul>
+    <p>
+      <small>
+        Catch me on:
+        <a href="https://mastodon.social/@anttti">Mastodon</a>
+        <a href="https://github.com/anttti">Github</a>
+      </small>
+    </p>
   </footer>
 </html>
