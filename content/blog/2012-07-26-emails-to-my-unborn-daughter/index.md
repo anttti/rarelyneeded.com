@@ -1,9 +1,9 @@
 ---
-title: "\"Emails to My Unborn Daughter\""
+title: '"Emails to My Unborn Daughter"'
 date: "2012-07-26"
 ---
 
-[“Emails to My Unborn Daughter”]("http://www.staticmade.com/emails-to-my-unborn-daughter/")
+[“Emails to My Unborn Daughter”](http://www.staticmade.com/emails-to-my-unborn-daughter/)
 
 Speaking of emails, this is such a great idea by Jeffrey Inscho:
 
@@ -11,4 +11,4 @@ Speaking of emails, this is such a great idea by Jeffrey Inscho:
 
 Definitely something I’d consider doing if we had kids.
 
-Via [Minimal Mac]("http://minimalmac.com/post/28026342168/static-made-emails-to-my-unborn-daughter").
+Via [Minimal Mac](http://minimalmac.com/post/28026342168/static-made-emails-to-my-unborn-daughter).

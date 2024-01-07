@@ -3,7 +3,7 @@ title: "Finally a good use for Excel macros"
 date: "2012-08-07"
 ---
 
-[Finally a good use for Excel macros]("http://mit.edu/~victorj/www/blog/2012/08/06/Twitter-reader-in-Excel-with-Python-and-DataNitro/")
+[Finally a good use for Excel macros](http://mit.edu/~victorj/www/blog/2012/08/06/Twitter-reader-in-Excel-with-Python-and-DataNitro/)
 
 Victor Jakubiuk:
 

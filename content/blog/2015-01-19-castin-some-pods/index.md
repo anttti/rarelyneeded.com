@@ -3,7 +3,7 @@ title: "Castin' Some Pods"
 date: "2015-01-19"
 ---
 
-Me and my pal [Jarkko]("https://twitter.com/jarkko") started a tech podcast called [Tyyppimuunnos]("http://tyyppimuunnos.fi") (Typecast in English). It’s in Finnish but I thought I’d still write my thoughts about it here.
+Me and my pal [Jarkko](https://twitter.com/jarkko) started a tech podcast called [Tyyppimuunnos](http://tyyppimuunnos.fi) (Typecast in English). It’s in Finnish but I thought I’d still write my thoughts about it here.
 
 The Finnish podcast scene is weak, especially in the tech side. There are or have been a couple of podcasts, but many have died, release episodes few and far between or are just about the latest Android gadgets of the week. Me and Jarkko have a bit different show in our minds.
 

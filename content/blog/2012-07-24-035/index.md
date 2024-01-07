@@ -9,4 +9,4 @@ date: "2012-07-24"
 
 If Apple started working on the iPad _ten years ago_, no wonder the competition has a bit catching up to do. Especially since they nowadays focus so much on reacting instead of innovating.
 
-Via [Daring Fireball]("http://daringfireball.net/linked/2012/07/24/ipad-prototype").
+Via [Daring Fireball](http://daringfireball.net/linked/2012/07/24/ipad-prototype).

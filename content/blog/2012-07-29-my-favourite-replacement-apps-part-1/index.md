@@ -7,11 +7,11 @@ As I did a fresh install of Mountain Lion the day it was released, I’ve been s
 
 ## iTerm 2, the Terminal replacement
 
-I tried the default Terminal on 10.8 but as I’ve grown so accustomed to [iTerm 2]("http://www.iterm2.com/#/section/home"), I downloaded and installed it instead. It’s a great Terminal replacement with nice features such as split panes. And page up/page down work straight away with irssi, with zero configuration.
+I tried the default Terminal on 10.8 but as I’ve grown so accustomed to [iTerm 2](http://www.iterm2.com/#/section/home), I downloaded and installed it instead. It’s a great Terminal replacement with nice features such as split panes. And page up/page down work straight away with irssi, with zero configuration.
 
 ## Oh-my-zsh, the Bash replacement
 
-[Oh-my-zsh]("https://github.com/robbyrussell/oh-my-zsh/") brings zshell with awesome default configuration. I’m sure Bash can be configured to act & look similar, but this thing just makes sense out-of-the-box, so why not? From the top of my head, some nice features:
+[Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/) brings zshell with awesome default configuration. I’m sure Bash can be configured to act & look similar, but this thing just makes sense out-of-the-box, so why not? From the top of my head, some nice features:
 
 - Case insensitive autocomplete (where multiple hits of the tab key go though the alternatives)
 - Git integration
@@ -28,4 +28,4 @@ And Chrome just happens to be the least bad option. There are some things that I
 
 Well, Messages is the mess of ages.
 
-I’ll be back with more apps in part two. Stay tuned, and as always, for comments & feedback you can reach me on Twitter as [@anttti]("http://twitter.com/anttti").
+I’ll be back with more apps in part two. Stay tuned, and as always, for comments & feedback you can reach me on Twitter as [@anttti](http://twitter.com/anttti).

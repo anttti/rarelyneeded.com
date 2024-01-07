@@ -3,7 +3,7 @@ title: "The perfect Twitter client"
 date: "2012-07-25"
 ---
 
-Over time I’ve tried quite a few Twitter clients on OS X, some good, some not so good. I’ve been mostly using Twitter’s own Twitter.app that evolved from the good ol’ Tweetie, and for the last few months a client called [Osfoora]("http://osfoora.com/mac/").
+Over time I’ve tried quite a few Twitter clients on OS X, some good, some not so good. I’ve been mostly using Twitter’s own Twitter.app that evolved from the good ol’ Tweetie, and for the last few months a client called [Osfoora](http://osfoora.com/mac/).
 
 What would I like to see in the ultimate client? Glad you asked:
 
@@ -20,4 +20,4 @@ Osfoora comes close, especially the latest update with streaming support made a 
 
 Then there’s the alpha version of Tweetbot for Mac. I can tolerate it being “the most android-looking app on iOS” on my phone and on the iPad mostly because the apps are always running in full screen, but it just doesn’t sit well in OS X.
 
-Given the [stance Twitter seems to have taken on 3rd party clients]("http://arstechnica.com/information-technology/2011/03/twitter-tells-third-party-devs-to-stop-making-twitter-client-apps/"), I wonder if I ever get to see a client of my dreams.
+Given the [stance Twitter seems to have taken on 3rd party clients](http://arstechnica.com/information-technology/2011/03/twitter-tells-third-party-devs-to-stop-making-twitter-client-apps/), I wonder if I ever get to see a client of my dreams.

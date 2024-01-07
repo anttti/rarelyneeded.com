@@ -3,12 +3,12 @@ title: "My Bookmarking Flow"
 date: "2013-01-19"
 ---
 
-I live and breathe in [Google Reader]("http://google.com/reader"). Sometimes (quite often) there arises a need to save a webpage for later, either because I don’t have the time to read it or I just want to save the page for referencing to later. Here’s how my process used to go with Google Reader:
+I live and breathe in [Google Reader](http://google.com/reader). Sometimes (quite often) there arises a need to save a webpage for later, either because I don’t have the time to read it or I just want to save the page for referencing to later. Here’s how my process used to go with Google Reader:
 
 - Find an interesting article
-- Hit the star button to trigger [IFTTT]("http://ifttt.com")
-- IFTTT would then send the starred article to [Instapaper]("http://instapaper.com") so I could catch up later
-- Instapaper would post all articles sent to it to [Pinboard.in]("http://pinboard.in") for more permanent storage.
+- Hit the star button to trigger [IFTTT](http://ifttt.com)
+- IFTTT would then send the starred article to [Instapaper](http://instapaper.com) so I could catch up later
+- Instapaper would post all articles sent to it to [Pinboard.in](http://pinboard.in) for more permanent storage.
 
 Then when I consumed the saved pages:
 
@@ -26,6 +26,6 @@ So now I’ve found a better solution for these certain kind of higher quality /
 
 But no, I realized Kippt is just suited for scratching this kind of itch. For example, as my day job as a web programmer I run across many handy JavaScript libraries and articles. Many of these I think I could use at some future project, so I created a Kippt list for JS stuff. Now please note, this list is **not** for dumping every possible JS related blog post, but only for high quality content I most probably would otherwise end up googling. And sometimes it’s not that straightforward to find the thing in mind (it was a great jQuery lightbox…name just slips my mind…let me google for jQuery ligh-holy hell! THREE MILLION RESULTS!?).
 
-So, [Kippt]("http://kippt.com"). For high quality web content. Also, it’s super pretty!
+So, [Kippt](http://kippt.com). For high quality web content. Also, it’s super pretty!
 
-I’m [anttti]("https://kippt.com/anttti/") on Kippt.
+I’m [anttti](https://kippt.com/anttti/) on Kippt.

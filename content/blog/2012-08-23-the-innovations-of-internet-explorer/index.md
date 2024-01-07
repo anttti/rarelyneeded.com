@@ -3,7 +3,7 @@ title: "The Innovations of Internet Explorer"
 date: "2012-08-23"
 ---
 
-[The Innovations of Internet Explorer]("http://www.nczonline.net/blog/2012/08/22/the-innovations-of-internet-explorer/")
+[The Innovations of Internet Explorer](http://www.nczonline.net/blog/2012/08/22/the-innovations-of-internet-explorer/)
 
 Nicholas C. Zakas:
 

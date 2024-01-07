@@ -3,7 +3,7 @@ title: "Why closed is better for business"
 date: "2012-07-24"
 ---
 
-[Why closed is better for business]("http://mattgemmell.com/2012/07/23/closed-for-business/")
+[Why closed is better for business](http://mattgemmell.com/2012/07/23/closed-for-business/)
 
 > To have apps, you need developers. To have developers, you need enthusiasm and an investment of time and talent. Enthusiasm and effort can be driven by many motivations, but the most reliable and consistent of those is money.
 

@@ -3,7 +3,7 @@ title: "Email is not a filesystem"
 date: "2012-07-26"
 ---
 
-One of the three main features of the [.Mail app]("http://dotmailapp.com"):
+One of the three main features of the [.Mail app](http://dotmailapp.com):
 
 > Imagine finding every attachment someone sent you, sorted by date or name directly in your email client? It’s similar to the “All your files” functionality in your OSX Finder.
 

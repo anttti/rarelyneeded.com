@@ -3,7 +3,7 @@ title: "So I ordered a Nexus 7 2"
 date: "2013-09-28"
 ---
 
-Yesterday I went an ordered a WiFi-only Nexus 7 2 [1]("p62490867849-name"). Me, a guy who’s somewhat deeply invested in the Apple ecosystem! Also, me, who’s been pretty vocal about how dumb it is to buy a tablet without cellular connectivity. Yep. Here’s why:
+Yesterday I went an ordered a WiFi-only Nexus 7 2 [1](p62490867849-name). Me, a guy who’s somewhat deeply invested in the Apple ecosystem! Also, me, who’s been pretty vocal about how dumb it is to buy a tablet without cellular connectivity. Yep. Here’s why:
 
 - I read a lot of books.
 - Most of the stuff I read is technical (contains source code), thus PDFs are the only viable format.
@@ -27,10 +27,10 @@ Now I wait for the device to arrive, should be here around next Friday. I’ll b
 
 Related: worst product name in the history of mankind has to be the smartcover knockoff Amazon tried to upsell me. It’s called: _drumroll please…_
 
-[New Asus Google Nexus 7 FHD 2013 (ALL Model Versions, Android 4.3) BLACK Multi-Function SMART FOLIO Front & Back Case / Smart Cover / Typing & Viewing Stand / Premium SLIM Flip Case With Magnetic Sleep Sensor & Screen Protector Shield Guard & Nexus 7 FHD 2 2.0 II Tablet Black Stylus Pen Accessory Accessories Pack by InventCase®]("http://www.amazon.co.uk/Multi-Function-Protector-Accessory-Accessories-InventCase%C2%AE/dp/B00EF83LZO/").
+[New Asus Google Nexus 7 FHD 2013 (ALL Model Versions, Android 4.3) BLACK Multi-Function SMART FOLIO Front & Back Case / Smart Cover / Typing & Viewing Stand / Premium SLIM Flip Case With Magnetic Sleep Sensor & Screen Protector Shield Guard & Nexus 7 FHD 2 2.0 II Tablet Black Stylus Pen Accessory Accessories Pack by InventCase®](http://www.amazon.co.uk/Multi-Function-Protector-Accessory-Accessories-InventCase%C2%AE/dp/B00EF83LZO/).
 
-Tweeted that yesterday. [Took]("https://twitter.com/anttti/status/383647185872912384") [three]("https://twitter.com/anttti/status/383647192848027648") [tweets]("https://twitter.com/anttti/status/383647200376811520").
+Tweeted that yesterday. [Took](https://twitter.com/anttti/status/383647185872912384) [three](https://twitter.com/anttti/status/383647192848027648) [tweets](https://twitter.com/anttti/status/383647200376811520).
 
-* * *
+---
 
-1. What a douche name! I know iPads nowadays are also named in a similar fashion, but it actually took me quite a many checks on various e-commerce sites to be sure I was looking at the new Nexus 7 2 2013 and not the old sucky one. [↩]("p62490867849-name")
+1. What a douche name! I know iPads nowadays are also named in a similar fashion, but it actually took me quite a many checks on various e-commerce sites to be sure I was looking at the new Nexus 7 2 2013 and not the old sucky one. [↩](p62490867849-name)
