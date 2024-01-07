@@ -13,12 +13,24 @@
       :root {
         --brand: #2570eb;
         --gray: rgba(0, 0, 0, 0.08);
+        --text: rgba(0, 0, 0, 0.9);
+        --background: white;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+        --text: white;
+        --background: rgba(0, 0, 0, 0.9);
+        --brand: #97bfff;
+        --gray: rgb(85, 85, 85);
+        }
       }
       body {
-        margin: 1em auto;
-        max-inline-size: 40em;
-        padding: 1em;
-        font: 1.1em/1.5 -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        color: var(--text);
+        background: var(--background);
+        margin: 1rem auto;
+        max-inline-size: 40rem;
+        padding: 1rem;
+        font: 1.1rem/1.5 -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
       }
       h1 {
         line-height: 1.2;
@@ -38,9 +50,6 @@
         max-inline-size: 100%;
         block-size: auto;
       }
-      footer {
-        text-align: center;
-      }
       .visually-hidden {
         clip: rect(0 0 0 0);
         clip-path: inset(50%);
@@ -50,14 +59,14 @@
         white-space: nowrap;
         inline-size: 1px;
       }
-      .inline-list {
+      nav ul, footer ul {
         display: flex;
         gap: 1rem;
         list-style: none;
         padding: 0;
         align-items: center;
       }
-      .inline-list li:has(svg[data-role=logo]) {
+      nav li:has(svg[data-role=logo]) {
         line-height: 0;
       }
     </style>
@@ -67,7 +76,7 @@
   </body>
   <footer>
     <hr />
-    <ul class="inline-list">
+    <ul>
       <li><small>Catch me on:</small></li>
       <li><small><a href="https://mastodon.social/@anttti">Mastodon</a></small></li>
       <li><small><a href="https://github.com/anttti">Github</a></small></li>

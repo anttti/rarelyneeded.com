@@ -14,23 +14,25 @@ layout: layouts/base.njk
   {{ content | safe }}
 
   {% if tags | filterTagList | length %}
-  <ul class="inline-list">
-    <li><small>Posted in</small></li>
-    {%- for tag in tags | filterTagList %}
-    {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-    <li><small><a href="{{ tagUrl }}">#{{ tag | slugify }}</a></small></li>
-    {%- endfor %}
-  </ul>
+  <p>
+    <small>Posted in
+      {%- for tag in tags | filterTagList %}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <a href="{{ tagUrl }}">#{{ tag | slugify }}</a>
+      {%- endfor %}
+    </small>
+  </p>
   {% endif %}
 
   {%- if collections.posts %}
   {%- set previousPost = collections.posts | getPreviousCollectionItem %}
   {%- set nextPost = collections.posts | getNextCollectionItem %}
   {%- if nextPost or previousPost %}
-  <hr />
   <p>
+    <small>
     {%- if previousPost %}Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
     {%- if nextPost %}<br />Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>{% endif %}
+    </small>
   </p>
   {%- endif %}
   {%- endif %}
