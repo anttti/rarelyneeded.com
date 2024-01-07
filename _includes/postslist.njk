@@ -2,7 +2,6 @@
 {% for post in postslist | reverse %}
   <li>
     <a href="{{ post.url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
   </li>
 {% endfor %}
 </ul>

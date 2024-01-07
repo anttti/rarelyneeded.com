@@ -11,33 +11,32 @@
 
     <style>
       :root {
-        --brand: #007d8c;
-        --brand-dark: #006470;
+        --brand: #2570eb;
         --gray: rgba(0, 0, 0, 0.08);
       }
       body {
         margin: 1em auto;
-        max-width: 40em;
-        padding: 0 .62em 3.24em;
-        font: 1.2em/1.62 sans-serif;
+        max-inline-size: 40em;
+        padding: 1em;
+        font: 1.1em/1.5 -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
       }
-      h1, h2, h3 {
+      h1 {
         line-height: 1.2;
-        color: var(--brand-dark);
       }
       h2, h3 {
         line-height: 1.4;
       }
-      a {
-        color: var(--brand);
-      }
-      a:visited {
+      a, a:visited {
         color: var(--brand);
       }
       hr {
         border: 0;
         background: var(--gray);
-        height: 3px;
+        block-size: 3px;
+      }
+      picture, img {
+        max-inline-size: 100%;
+        block-size: auto;
       }
       footer {
         text-align: center;
@@ -45,11 +44,11 @@
       .visually-hidden {
         clip: rect(0 0 0 0);
         clip-path: inset(50%);
-        height: 1px;
+        block-size: 1px;
         overflow: hidden;
         position: absolute;
         white-space: nowrap;
-        width: 1px;
+        inline-size: 1px;
       }
       .inline-list {
         display: flex;

@@ -13,6 +13,7 @@ layout: layouts/base.njk
 
   {{ content | safe }}
 
+  {% if tags | filterTagList | length %}
   <ul class="inline-list">
     <li><small>Posted in</small></li>
     {%- for tag in tags | filterTagList %}
@@ -20,6 +21,7 @@ layout: layouts/base.njk
     <li><small><a href="{{ tagUrl }}">#{{ tag | slugify }}</a></small></li>
     {%- endfor %}
   </ul>
+  {% endif %}
 
   {%- if collections.posts %}
   {%- set previousPost = collections.posts | getPreviousCollectionItem %}
