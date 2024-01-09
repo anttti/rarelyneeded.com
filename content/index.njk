@@ -11,16 +11,7 @@ numberOfLatestPostsToShow: 3
 <p>Excuse the mess here. I've moved this blog from Jekyll to WP and now to Eleventy and it looks like at some point in the journey images and links in the older posts have broken. I'll fix them… someday.</p>
 
 <section>
-  {% set postsCount = collections.posts | length %}
-  {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-  <h2>Latest posts</h2>
-
-  {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-  {% set postslistCounter = postsCount %}
+  <h2>Writings</h2>
+  {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
-
-  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
-  {% if morePosts > 0 %}
-  <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog</a>.</p>
-  {% endif %}
 </section>

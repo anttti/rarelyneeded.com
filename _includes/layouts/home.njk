@@ -2,10 +2,4 @@
 layout: layouts/base.njk
 ---
 
-<a href="#skip" class="visually-hidden">Skip to main content</a>
-
-{% include "navigation.njk" %}
-
-<main id="skip">
-  {{ content | safe }}
-</main>
+{{ content | safe }}
