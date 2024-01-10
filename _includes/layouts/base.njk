@@ -21,7 +21,7 @@
         :root {
         --text: white;
         --background: rgba(0, 0, 0, 0.9);
-        --content-background: rgba(0, 0, 0, 0.9);
+        --content-background: rgba(255, 255, 255, 0.05);
         --link: #97bfff;
         --hr: rgb(85, 85, 85);
         }
@@ -34,10 +34,12 @@
         padding: 1rem;
         font: 1.1rem/1.5 -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
       }
-      main {
-        background: var(--content-background);
-        padding: 0 clamp(1rem, 2.5vw, 3rem) 1rem;
-        border: 1px solid var(--hr);
+      @media screen and (min-width: 500px) {
+        main {
+          background: var(--content-background);
+          padding: 0 clamp(1rem, 2.5vw, 3rem) 1rem;
+          border: 1px solid var(--hr);
+        }
       }
       h1 {
         margin-block-start: clamp(1rem, 2.5vw, 2rem);
