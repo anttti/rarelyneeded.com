@@ -6,6 +6,8 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 
+    <link href="https://mastodon.social/@anttti" rel="me">
+
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 
@@ -113,7 +115,7 @@
     <footer>
       <p>
         <small>
-          <a href="https://mastodon.social/@anttti">Mastodon</a>
+          <a href="https://mastodon.social/@anttti" rel="me">Mastodon</a>
           <a href="https://github.com/anttti">Github</a>
         </small>
       </p>
